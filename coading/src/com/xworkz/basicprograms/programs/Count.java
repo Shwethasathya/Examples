@@ -16,6 +16,12 @@ public class Count {
 					|| str.charAt(i) == 'u')
 
 				vowelsCount++;
+		}else{
+			consonenetsCounts++;
 		}
+	}
+	System.out.println(vowelsCount);
+	System.out.println(consonentsCounts);
+			
 	}
 }
