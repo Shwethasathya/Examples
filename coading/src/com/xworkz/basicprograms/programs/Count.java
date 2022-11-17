@@ -12,6 +12,7 @@ public class Count {
 		int consonenetsCounts = 0;
 
 		for (int i = 0; i < str.length(); i++) {
+			if(str.charAt(i)!=' '){
 			if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o'
 					|| str.charAt(i) == 'u')
 
@@ -19,6 +20,7 @@ public class Count {
 		}else{
 			consonenetsCounts++;
 		}
+	    }
 	}
 	System.out.println(vowelsCount);
 	System.out.println(consonentsCounts);
